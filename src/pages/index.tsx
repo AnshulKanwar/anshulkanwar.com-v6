@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="theme-color" content="#171618"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="antialiased bg-gradient-radial text-violet pb-40">
+      <main className="antialiased bg-gradient-radial text-violet">
         <div className="max-w-3xl mx-auto">
           <Hero />
         </div>

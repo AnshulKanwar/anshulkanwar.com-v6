@@ -7,3 +7,8 @@
   padding: 0;
   margin: 0;
 }
+
+::selection {
+  background: #4D4454;
+  color: #DACBCF;
+}

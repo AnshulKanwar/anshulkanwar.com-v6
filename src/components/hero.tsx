@@ -42,7 +42,7 @@ const Hero = () => {
             <IconBrandLinkedin />
           </a>
           <a
-            href="https://drive.google.com/file/d/11jnw6oSBlE6oltHyTlLZr6548ibIrosy/view?usp=share_link"
+            href="https://resume.anshulkanwar.com"
             target="_blank"
             rel="noopener noreferrer"
           >

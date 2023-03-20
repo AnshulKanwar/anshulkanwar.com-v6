@@ -8,7 +8,7 @@ import logo from "../../public/logo.svg";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen max-w-3xl mx-auto grid place-items-center">
+    <div className="min-h-screen grid place-items-center">
       <div>
         <div className="max-w-[13rem] mx-auto">
           <Image src={logo} alt="logo" />
@@ -46,7 +46,7 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="border-2 px-2 py-0.5 rounded-sm font-semibold transition hover:bg-violet hover:text-night hover:border-violet">Resume</span>
+            <span className="border-2 px-2 py-0.5 rounded-md font-semibold transition hover:bg-violet hover:text-night hover:border-violet">Resume</span>
           </a>
         </div>
       </div>

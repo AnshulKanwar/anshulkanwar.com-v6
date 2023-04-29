@@ -1,4 +1,5 @@
 import Hero from "@/components/hero";
+import Projects from "@/components/projects";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="antialiased bg-gradient-radial text-violet">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto pb-32">
           <Hero />
+          <Projects />
         </div>
       </main>
     </>

@@ -8,7 +8,6 @@ module.exports = {
       night: "#171618",
       raisin: "#252127",
       violet: "#4F4455",
-      wenge: "#624767",
       rose: "#DACBCF",
     },
     extend: {

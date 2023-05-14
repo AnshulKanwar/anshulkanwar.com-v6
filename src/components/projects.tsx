@@ -43,7 +43,7 @@ const projects: Project[] = [
     url: "https://github.com/AnshulKanwar/lms",
     description:
       "A modern implementation of a Learning Management System (LMS)",
-    technologies: ["Rust"],
+    technologies: ["Djanog", "React"],
   },
 ];
 

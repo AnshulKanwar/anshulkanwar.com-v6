@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="antialiased bg-gradient-radial text-violet">
-        <div className="max-w-3xl mx-8 md:mx-auto pb-32">
+        <div className="max-w-3xl mx-6 md:mx-auto pb-32">
           <Hero />
           <Projects />
         </div>

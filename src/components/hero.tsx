@@ -8,7 +8,7 @@ import logo from "../../public/logo.svg";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen grid place-items-center">
+    <div className="min-h-screen grid place-items-center justify-items-stretch">
       <div>
         <div className="max-w-[13rem] mx-auto">
           <Image src={logo} alt="logo" />
@@ -16,7 +16,7 @@ const Hero = () => {
         <h1 className="text-rose text-3xl sm:text-5xl font-bold my-10 text-center">Anshul Kanwar</h1>
         <div className="text-center">Student. Developer. Hacker.</div>
 
-        <div className="w-full flex justify-evenly mt-24">
+        <div className="w-full flex justify-around mt-24">
           <a
             href="https://github.com/AnshulKanwar"
             className="transition hover:text-rose"

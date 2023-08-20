@@ -38,13 +38,6 @@ const projects: Project[] = [
     description: "A blazing fast CLI app to track your diet.",
     technologies: ["Rust"],
   },
-  {
-    name: "LMS",
-    url: "https://github.com/AnshulKanwar/lms",
-    description:
-      "A modern implementation of a Learning Management System (LMS)",
-    technologies: ["Django", "React"],
-  },
 ];
 
 const Projects = () => {
@@ -67,12 +60,30 @@ const Projects = () => {
             </a>
             <div className="flex gap-2 my-2">
               {technologies.map((technology) => (
-                <span key={technology} className="text-xs bg-violet text-night rounded-3xl px-2 py-0.5">{technology}</span>
+                <span
+                  key={technology}
+                  className="text-xs bg-violet text-night rounded-3xl px-2 py-0.5"
+                >
+                  {technology}
+                </span>
               ))}
             </div>
             <p className="font-light">{description}</p>
           </div>
         ))}
+        <div className="self-center">
+          <p>
+            And many more on my{" "}
+            <a
+              href="https://github.com/AnshulKanwar"
+              className="hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );

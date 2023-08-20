@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="max-w-[13rem] mx-auto">
           <Image src={logo} alt="logo" />
         </div>
-        <h1 className="text-rose text-5xl font-bold my-10">Anshul Kanwar</h1>
+        <h1 className="text-rose text-3xl sm:text-5xl font-bold my-10 text-center">Anshul Kanwar</h1>
         <div className="text-center">Student. Developer. Hacker.</div>
 
         <div className="w-full flex justify-evenly mt-24">

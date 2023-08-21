@@ -1,5 +1,3 @@
-import { IconArrowUpRight } from "@tabler/icons-react";
-
 interface Project {
   name: string;
   url: string;
@@ -55,7 +53,6 @@ const Projects = () => {
             >
               <span className="flex gap-1 items-center">
                 <h2 className="text-lg font-semibold">{name}</h2>
-                <IconArrowUpRight stroke={1} />
               </span>
             </a>
             <div className="flex gap-2 my-2">

@@ -1,10 +1,6 @@
-import {
-  IconBrandGithub,
-  IconBrandLinkedin,
-  IconMail,
-} from "@tabler/icons-react";
 import Image from "next/image";
 import logo from "../../public/logo.svg";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -23,7 +19,7 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconBrandGithub />
+            <Github />
           </a>
           <a
             href="mailto:me@anshulkanwar.com"
@@ -31,7 +27,7 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconMail />
+            <Mail />
           </a>
           <a
             href="https://www.linkedin.com/in/anshul-kanwar/"
@@ -39,7 +35,7 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconBrandLinkedin />
+            <Linkedin />
           </a>
           <a
             href="https://resume.anshulkanwar.com"

@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 export const metadata: Metadata = {
   title: "Anshul Kanwar",
   description: "Anshul Kanwar's Portfolio",
+  themeColor: "#171618",
 };
 
 export default function RootLayout({
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="antialiased bg-gradient-radial text-violet">
+        {children}
+      </body>
     </html>
   );
 }

@@ -46,7 +46,7 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="border-2 px-2 py-1 rounded-md font-semibold transition hover:bg-violet hover:text-night hover:border-violet">
+            <span className="border-2 px-2 py-1 rounded-md font-semibold transition hover:bg-rose hover:border-rose">
               Resume
             </span>
           </a>

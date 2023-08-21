@@ -29,7 +29,7 @@ const projects: Project[] = [
   {
     name: "Planetary Motion Simulation",
     url: "https://github.com/AnshulKanwar/Planetary-Motion",
-    description: "Planetary Motion animation (Newton's Law) made using OpenGL",
+    description: "Planetary Motion animation made using OpenGL",
     technologies: ["C++", "OpenGL"],
   },
   {

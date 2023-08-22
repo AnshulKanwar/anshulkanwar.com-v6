@@ -1,4 +1,6 @@
 import { Metadata } from "next";
+import { Inter } from "next/font/google";
+
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -7,6 +9,8 @@ export const metadata: Metadata = {
   themeColor: "#171618",
 };
 
+const inter = Inter({ subsets: ["latin"] });
+
 export default function RootLayout({
   children,
 }: {
@@ -14,7 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased bg-gradient-radial text-violet">
+      <body
+        className={`${inter.className} antialiased bg-gradient-radial text-violet`}
+      >
         {children}
       </body>
     </html>
